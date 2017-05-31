@@ -174,9 +174,9 @@ td img {
 /*PUPPYLOVE-----FORM----------*/
 form{
   /*border: solid black 1px;*/
-  display:flex;
-  flex-flow:wrap column;
-  positionLrelative;
+  /*display:flex;
+  flex-flow:wrap column;*/
+  position:relative;
   justify-content:center;
   background-color:#eee;
   border-radius:5px;
@@ -187,19 +187,29 @@ form{
 }
 
 div .name {
-  background-color:#ff8523;
+  display:flex;
+  flex-direction: row;
+  position:relative;
   border-radius:5px;
   margin: 5px;
+  padding: 3% 5% 3% 5%;
+  background-color:#ff8523;
+  color: white;
+  justify-content:space-around;
+}
+.name label{
+  /*flex-grow:1;*/
+}
+.name input{
+  /*flex-grow:2;*/
+  background-color: white;
 }
 
-/*.name label, input{
-  /*border: solid black 1px;*/
-  /*background-color:#ff8523;
-}*/
 
 #submit_button{
-  background-color:#1fabe5;
-  color:white;
+  position:relative;
   padding: 2%;
   border-radius: 4px;
+  background-color:#1fabe5;
+  color:white;
 }
