@@ -172,18 +172,20 @@ td img {
 }
 
 /*PUPPYLOVE-----FORM----------*/
+/*---.name--------------------*/
 form{
-  /*border: solid black 1px;*/
-  /*display:flex;
-  flex-flow:wrap column;*/
   position:relative;
-  justify-content:center;
   background-color:#eee;
   border-radius:5px;
   margin:1vh 0 5vh 0;
   padding:1vh 1vw;
-  height: 40vh;
+  height: 45vh;
   width:100%;
+}
+
+label{
+    font-weight:bold;
+    font-size:1.75vw;
 }
 
 div .name {
@@ -197,14 +199,25 @@ div .name {
   color: white;
   justify-content:space-around;
 }
-.name label{
-  /*flex-grow:1;*/
-}
+
 .name input{
-  /*flex-grow:2;*/
   background-color: white;
+  box-shadow: 1px 1px 3px lightgrey;
 }
 
+div .city_container{
+  position:relative;
+  margin:5px;
+  padding:2% 0;
+  /*border: solid black 1px;*/
+}
+
+#city{
+  position:relative;
+  font-size:1.2vw;
+  border: solid grey 1px;
+  background-color:white;
+}
 
 #submit_button{
   position:relative;
@@ -212,4 +225,13 @@ div .name {
   border-radius: 4px;
   background-color:#1fabe5;
   color:white;
+}
+
+#bio{
+  position:relative;
+  background-color:white;
+  border: solid 1px #1fabe5;
+  height: 15vh;
+  margin: 5px;
+  width:9%;
 }
